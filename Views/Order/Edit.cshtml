@@ -1,0 +1,51 @@
+﻿@model KhumaloCraft.Models.Order
+
+@{
+    ViewData["Title"] = "Edit Order";
+}
+
+
+<h4 class="display-4 mb-4 text-center">Edit Order</h4>
+<hr />
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="OrderID" />
+                <div class="form-group mb-2">
+                    <label asp-for="UserID" class="control-label">Client</label>
+                    <select asp-for="UserID" class="form-control" asp-items="ViewBag.UserID"></select>
+                    <span asp-validation-for="UserID" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-2">
+                    <label asp-for="OrderDate" class="control-label">Order Date</label>
+                    <input asp-for="OrderDate" class="form-control" />
+                    <span asp-validation-for="OrderDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Total" class="control-label"></label>
+                    <input asp-for="Total" class="form-control" asp-format="{0:F2}" data-val="false" />
+                    <span asp-validation-for="Total" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                    <a class="btn btn-warning float-end" asp-action="Index">
+                        <svg style="vertical-align: text-bottom" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                        </svg> Cancel
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

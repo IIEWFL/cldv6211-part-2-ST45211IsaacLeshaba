@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\KhumaloCraft.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KhumaloCraft.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\favicon_io\\about.txt",
+      "PackagePath": "staticwebassets\\favicon_io\\about.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\favicon_io\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\favicon_io\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\favicon_io\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\favicon_io\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\favicon_io\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\favicon_io\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\favicon_io\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\favicon_io\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\favicon_io\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\favicon_io\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\favicon_io\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon_io\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\favicon_io\\site.webmanifest",
+      "PackagePath": "staticwebassets\\favicon_io\\site.webmanifest"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\1.png",
+      "PackagePath": "staticwebassets\\img\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\2.png",
+      "PackagePath": "staticwebassets\\img\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\3.png",
+      "PackagePath": "staticwebassets\\img\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\4.png",
+      "PackagePath": "staticwebassets\\img\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\5.png",
+      "PackagePath": "staticwebassets\\img\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\6.png",
+      "PackagePath": "staticwebassets\\img\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\KhumaloCraftERD.png",
+      "PackagePath": "staticwebassets\\img\\KhumaloCraftERD.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\craft1.jpg",
+      "PackagePath": "staticwebassets\\img\\craft1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\craft2.jpg",
+      "PackagePath": "staticwebassets\\img\\craft2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\craft3.jpg",
+      "PackagePath": "staticwebassets\\img\\craft3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\craft4.jpg",
+      "PackagePath": "staticwebassets\\img\\craft4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\craft5.jpg",
+      "PackagePath": "staticwebassets\\img\\craft5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\james.jpg",
+      "PackagePath": "staticwebassets\\img\\james.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\img\\samsung.avif",
+      "PackagePath": "staticwebassets\\img\\samsung.avif"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\cldr-data\\main\\af\\numbers.json",
+      "PackagePath": "staticwebassets\\lib\\cldr-data\\main\\af\\numbers.json"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\cldr-data\\supplemental\\likelySubtags.json",
+      "PackagePath": "staticwebassets\\lib\\cldr-data\\supplemental\\likelySubtags.json"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\cldr-data\\supplemental\\numberingSystems.json",
+      "PackagePath": "staticwebassets\\lib\\cldr-data\\supplemental\\numberingSystems.json"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\uploads\\045dfdd0-a9b4-4f93-93e6-013af63cdeac_henn.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\045dfdd0-a9b4-4f93-93e6-013af63cdeac_henn.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\uploads\\24f0fec8-8e44-40a4-97dd-722e6f366d3f_sam.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\24f0fec8-8e44-40a4-97dd-722e6f366d3f_sam.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\uploads\\34f8ea14-e0cf-4481-b296-eb335095d49c_sleeve.jpg",
+      "PackagePath": "staticwebassets\\uploads\\34f8ea14-e0cf-4481-b296-eb335095d49c_sleeve.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\uploads\\3a82119a-46ed-469b-9a36-57d93cb925ef_fif.webp",
+      "PackagePath": "staticwebassets\\uploads\\3a82119a-46ed-469b-9a36-57d93cb925ef_fif.webp"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\uploads\\7cd5d0a4-3019-4103-8e93-7b0c84cb4b9f_air.png",
+      "PackagePath": "staticwebassets\\uploads\\7cd5d0a4-3019-4103-8e93-7b0c84cb4b9f_air.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\uploads\\9a7a1ab1-b48e-45ce-a964-9eb2241c7979_fif.webp",
+      "PackagePath": "staticwebassets\\uploads\\9a7a1ab1-b48e-45ce-a964-9eb2241c7979_fif.webp"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\uploads\\9af55838-e51f-4744-a32f-91095d38b20d_sam.png",
+      "PackagePath": "staticwebassets\\uploads\\9af55838-e51f-4744-a32f-91095d38b20d_sam.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\uploads\\9b34a880-d8b4-4b82-8e9e-84e1f454fa24_remote.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\9b34a880-d8b4-4b82-8e9e-84e1f454fa24_remote.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\uploads\\a859ade3-8fe5-4808-9a65-cd9730e2af0e_gta.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\a859ade3-8fe5-4808-9a65-cd9730e2af0e_gta.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\KhumaloCraft\\wwwroot\\uploads\\d65ba078-e977-4f67-a501-dee98e5141d8_1318771.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\d65ba078-e977-4f67-a501-dee98e5141d8_1318771.jpeg"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.KhumaloCraft.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.KhumaloCraft.props",
+      "PackagePath": "build\\KhumaloCraft.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KhumaloCraft.props",
+      "PackagePath": "buildMultiTargeting\\KhumaloCraft.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.KhumaloCraft.props",
+      "PackagePath": "buildTransitive\\KhumaloCraft.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

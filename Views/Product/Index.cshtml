@@ -1,0 +1,100 @@
+﻿@model IEnumerable<KhumaloCraft.Models.Product>
+
+@{
+    ViewData["Title"] = "Our Collection";
+}
+
+<h3 class="display-5 text-center">Browse Our Collection</h3>
+
+@if (User.IsInRole("admin") || User.IsInRole("seller"))
+     {               
+    <a class="btn btn-primary mb-4" asp-action="Create">Add Product</a>
+     }
+
+     <div class="row mt-4 mb-5">
+        
+            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...This will ultimately house our azure cognitive search">
+            <datalist id="datalistOptions">
+              <option value="TV's"></option>
+              <option value="Gaming"></option>
+              <option value="Arts & Crafts"></option>
+            </datalist>
+     </div>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        if (item != null)
+        {
+            <div class="card-deck col-md-4 mb-4">
+                <div class="card h-100 mb-2">
+
+                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                    {
+                        <img class="card-img-top" style="object-fit: contain" src="@item.ImageUrl" alt="@item.ImageUrl" />
+                    }
+                    <div class="card-img-overlay" style="height: 50px">
+                        <p class="available">@(item.ProdAvailability ? "Available" : "Not Available")</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="posted mb-2"><strong>Posted By:</strong> @item.PostedBy : @item.PostedByRole</p>
+                        
+                        <h5 class="card-title lead">@item.ProdName</h5>
+                        
+                          
+                            @if (item.Category != null)
+                            {
+                                <p class="category">@item.Category.CatName</p>
+                            }
+                            else
+                            {
+                                <p class="category">No Category Assigned</p>
+                                // Display a message if no category is found
+                            }
+                        <p class="stock">
+                            <svg style="vertical-align:text-bottom" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box" viewBox="0 0 16 16">
+                                <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z" />
+                            </svg>
+                            @item.Stock Left
+                        </p>
+                      
+                        <form asp-controller="Order" asp-action="AddToCart" method="post">
+                            <p class="price float-start">R @item.Price</p>
+                            <input type="hidden" name="productId" value="@item.ProductID" />
+                            <button class="btn btn-primary float-end" type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" style="vertical-align: text-bottom" class="bi bi-cart" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                </svg> Add to Cart
+                            </button>
+                        </form>
+                      
+                        
+                    </div>
+                    @if (User.IsInRole("admin"))
+                    {
+                        <div class="card-footer">
+                            <div class="float-end">
+                                <a class="btn btn-outline-success" asp-action="Edit" asp-route-id="@item.ProductID">
+                                    <svg style="vertical-align:text-bottom" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                        <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325" />
+                                    </svg>    Edit
+                                </a> 
+                                <a class="btn btn-outline-secondary" asp-action="Details" asp-route-id="@item.ProductID">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                                        <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z" />
+                                        <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0" />
+                                    </svg>    Details
+                                </a> 
+                                <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.ProductID">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                        <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                    </svg>  Delete
+                                </a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    }
+</div>

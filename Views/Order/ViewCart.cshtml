@@ -1,0 +1,70 @@
+﻿@model Order
+
+<h2 class="display-4 text-center">Your Cart</h2>
+
+
+@if (Model != null && Model.OrderDetails != null && Model.OrderDetails.Any())
+{
+    @if (Model != null && Model.OrderDetails != null)
+    {
+        foreach (var orderDetail in Model.OrderDetails)
+        {
+            if (orderDetail.Product != null)
+            {
+                <div class="list-group mb-2">
+                    <div class="list-group-item list-group-item-action" style="border-left: none; border-right: none; border-top: none; border-radius: 0px;" aria-current="true">
+                        <div class="row">
+                            <div class="col-10">
+                                <img src="@orderDetail.Product.ImageUrl" style="width: 10%;" class="rounded img-fluid float-start mx-2" alt="...">
+                                <h5 class="mb-1">@orderDetail.Product.ProdName</h5>
+                                <small class="fw-normal">R @orderDetail.Product.Price</small>
+                            </div>
+                            <div class="col-2 text-end">
+                                <form class="d-flex" asp-action="UpdateCart" asp-route-orderDetailId="@orderDetail.OrderDetailID" method="post">
+                                    <input class="form-control mx-2" type="number" name="quantity" value="@orderDetail.Quantity" min="0">
+                                    <button class="btn btn-primary" type="submit">Update</button>
+                                </form>
+                            </div>
+                        </div>
+
+
+                        <div class="float-end">
+                            <p class="mb-1 fw-bold">Sub Total</p>
+                            <small>R @orderDetail.SubTotal</small>
+                        </div>
+
+                    </div>
+                </div>
+            }
+        }
+    }
+    <div class="float-start">
+        <a class="btn btn-primary" asp-controller="Product" asp-action="Index">
+           Continue Shopping
+        </a>
+    </div>
+    <div class="float-end">
+        <p class="fw-bold text-end">Total: R @Model?.Total</p>
+        <form asp-action="FinalizeOrder" asp-route-orderId="@Model?.OrderID" method="post">
+            <button class="btn btn-success" type="submit">
+                <svg style="vertical-align: text-bottom" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
+                    <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                </svg> Finalise Order
+                </button>
+        </form>
+    </div>
+
+}
+else
+{
+    <div class="text-center mt-5">
+        <p>Your cart is empty. Add something to your cart first and come back! 😁</p>
+        <a asp-action="Index" asp-controller="Product" class="btn btn-primary">
+            <svg style="vertical-align: text-bottom" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+            </svg> Shop Now
+            </a>
+    </div>
+   
+}

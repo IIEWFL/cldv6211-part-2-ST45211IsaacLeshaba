@@ -1,0 +1,118 @@
+﻿@model IEnumerable<KhumaloCraft.Models.Product>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Khumalo Craft</h1>
+    <p>Where creativity shines</p>
+</div>
+
+<div id="carouselExampleAutoplaying" class="carousel slide mb-4" data-bs-ride="carousel" style="height: 300px">
+    <div class="carousel-inner" style="height: 300px">
+        <div class="carousel-item active">
+            <img src="~/img/craft1.jpg" class="d-block w-100 h-50" style="object-fit: cover"  alt="craft1">
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/craft2.jpg" class="d-block w-100" style="object-fit: cover" alt="craft2">
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/craft3.jpg" class="d-block w-100" style="object-fit: cover" alt="craft3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<p class="fw-bold">Please feel free to register either as a client, seller, or admin to explore the different features and functionalities that
+    come with each of the different roles. 
+</p>
+
+<h4 class="display-6">Please read below</h4>
+<hr>
+
+<p>As a client, you can view products, add them to your cart, and place an order. As a seller, you can add products, view orders, 
+    and manage your products. As an admin, you can view all orders, manage products, and manage users.</p>
+    
+<p>In your POE I should be able to do the same. If you cannot implement the user management
+    functionality, make sure that i am able to CRUD and explore the features of each role freely.</p>
+
+<p>This is a proof of concept and still does not include every single feature and functionality under the sun but it should give you an idea of what is required from you</p>
+<p>It goes without saying that if you try to repackage this exact project and submit it as part of your POE that you will be flagged for copying and cheating and face disciplinary action.
+    Use this example to extend what you have already built
+</p>
+<h6>Github Repo Link</h6>
+<a href="https://github.com/IIEWFL/cldv6211-part-2-ST45211IsaacLeshaba" target="_blank">https://github.com/IIEWFL/cldv6211-part-2-ST45211IsaacLeshaba</a>
+
+<h4 class="display-6 mt-4">Rubric Requriements</h4>
+<hr />
+
+<div class=" mb-4">
+    <h5>Rurbric Requirement 1</h5>
+    <img class="mb-4" src="~/img/1.png" alt="rubric 1" />
+    <ol>
+        <li>You would have also provided the physical sql script itself to validate your ERD or provided screenshots of the script</li>
+    </ol>
+
+    <img src="~/img/KhumaloCraftERD.png" alt="khumalo craft ERD" />
+</div>
+
+<div class="mb-4">
+    <h5>Rurbric Requirement 2</h5>
+    <img class="mb-4" src="~/img/2.png" alt="rubric 2" />
+    <ol>
+        <li>You would have provided screensots of your database deployment on azure showing the steps and the final deployed service</li>
+        <li>I would then use your webapp link and access your live webapp to test if your application is actually connected to the database by accessing your product page</li>
+    </ol>
+</div>
+
+<div class="mb-4">
+    <h5>Rurbric Requirement 3</h5>
+    <img class="mb-4" src="~/img/3.png" alt="rubric 3" />
+    <ol>
+        <li>Register as a Client,Admin, and Seller to how each role can CRUD based on their role</li>
+        <li>I can fully CRUD Products dependent on the user role</li>
+        <li>I can fully CRUD Users dependent on the user role</li>
+        <li>I can CRUD transactions/Orders dependent on the user role</li>
+    </ol>
+    <p>If you were not able to implement user management feature i tested if I can CRUD these three specific tables within the context of the application.</p>
+    <strong>NB Just scaffolding the three tables and leaving it at that would not give you full marks especially the Order/Transaction table</strong>
+</div>
+
+<div class="mb-4">
+    <h5>Rurbric Requirement 4</h5>
+    <img class="mb-4" src="~/img/4.png" alt="rubric 4" />
+    <ol>
+        <li>Check the MyWork page to see how this was supposed to be implemented</li>
+        <li>The products must come from the database and must appear under the mywork page</li>
+    </ol>
+</div>
+
+<div class="mb-4">
+    <h5>Rurbric Requirement 5</h5>
+    <img class="mb-4" src="~/img/5.png" alt="rubric 5" />
+    <ol>
+        <li>Order process includes (selecting prodct, product added to cart, subtotal calculated, total calculated, order placed, and order confirmed)</li>
+        <li>Client can place order and view their orders after placing them</li>
+    </ol>
+</div>
+
+<div class="mb-4">
+    <h5>Rurbric Requirement 6</h5>
+    <img class="mb-4" src="~/img/6.png" alt="rubric 6" />
+    <ol>
+        <li>Fully implementing the user management feature (Register, Login, Logout, Session Management, Role based Auth)</li>
+        <li>Either an Admin Dashboard to help admin manage the entire application</li>
+    </ol>
+</div>
+
+
+
+

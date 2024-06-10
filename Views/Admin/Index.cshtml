@@ -1,0 +1,46 @@
+﻿@model AdminDashboardViewModel
+
+<h1 class="display-4 text-center mb-5">Welcome Admin</h1>
+
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header">Categories</div>
+            <div class="card-body">
+                <h5 class="card-title">Total Categories</h5>
+                <p class="card-text">@Model.TotalCategories</p>
+                <a  asp-controller="Category" asp-action="Index" class="btn btn-primary float-end">Manage</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header">Products</div>
+            <div class="card-body">
+                <h5 class="card-title">Total Products</h5>
+                <p class="card-text">@Model.TotalProducts</p>
+                <a asp-controller="Product" asp-action="Index" class="btn btn-primary float-end">Manage</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header">Users</div>
+            <div class="card-body">
+                <h5 class="card-title">Total Users</h5>
+                <p class="card-text">@Model.TotalUsers</p>
+                <a asp-controller="User" asp-action="Index" class="btn btn-primary float-end">Manage</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header">Orders</div>
+            <div class="card-body">
+                <h5 class="card-title">Total Orders</h5>
+                <p class="card-text">@Model.TotalOrders</p>
+                <a asp-controller="Order" asp-action="Index" class="btn btn-primary float-end">Manage</a>
+            </div>
+        </div>
+    </div>
+</div>
